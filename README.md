@@ -2,6 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Colors:
+https://coolors.co/palette/00bfa6-07bea3-0dbda0-19ba99-32b58c-64ab72-c8963e-573d1c-d9ae61-d1462f
+
 First, run the development server:
 
 ```bash
