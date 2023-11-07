@@ -8,22 +8,23 @@ export const theme = {
   },
   extend: {
     colors: {
-      border: "hsl(var(--border))",
+      border: "#eff7f6",
       input: "hsl(var(--input))",
       ring: "hsl(var(--ring))",
       background: "hsl(var(--background))",
       foreground: "hsl(var(--foreground))",
+      white: "#edf6f9",
+      black: "#0b132b",
       primary: {
-        DEFAULT: "hsl(var(--primary))",
-        // DEFAULT: "#07bea3",
+        DEFAULT: "#07bea3",
         foreground: "#042f2e",
       },
       secondary: {
-        DEFAULT: "hsl(var(--secondary))",
+        DEFAULT: "#573D1C",
         foreground: "hsl(var(--secondary-foreground))",
       },
       destructive: {
-        DEFAULT: "hsl(var(--destructive))",
+        DEFAULT: "#D1462F",
         foreground: "hsl(var(--destructive-foreground))",
       },
       muted: {
@@ -31,7 +32,7 @@ export const theme = {
         foreground: "hsl(var(--muted-foreground))",
       },
       accent: {
-        DEFAULT: "hsl(var(--accent))",
+        DEFAULT: "#6fffe9",
         foreground: "hsl(var(--accent-foreground))",
       },
       popover: {
@@ -62,5 +63,8 @@ export const theme = {
       "accordion-down": "accordion-down 0.2s ease-out",
       "accordion-up": "accordion-up 0.2s ease-out",
     },
+    transitionDuration: {
+      '400': '400ms',
+    }
   },
 };
