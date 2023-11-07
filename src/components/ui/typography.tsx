@@ -18,6 +18,7 @@ const typographyVariants = cva(
         body1: "text-base",
         body2: "text-sm",
         caption: "text-xs",
+        "special-title": "text-7xl leading-10 tracking-normal font-bold",
       },
       color: {
         primary: "text-primary",
@@ -70,6 +71,7 @@ function determineComp(variant: string | undefined | null) {
     body1: "p",
     body2: "span",
     caption: "p",
+    "special-title": "h1",
   };
 
   if (variant) {
