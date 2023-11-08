@@ -18,7 +18,7 @@ const typographyVariants = cva(
         body1: "text-base",
         body2: "text-sm",
         caption: "text-xs",
-        "special-title": "text-7xl leading-tighter tracking-tighter font-bold",
+        "special-title": "text-7xl leading-tighter tracking-tighter font-bold drop-shadow-md",
       },
       color: {
         primary: "text-primary",
@@ -27,6 +27,7 @@ const typographyVariants = cva(
         destructive: "text-destructive",
         white: "text-white",
         black: "text-black",
+        foreground: "text-foreground",
         "primary-foreground": "text-primary-foreground",
         "secondary-foreground": "text-secondary-foreground",
         "accent-foreground": "text-accent-foreground",
