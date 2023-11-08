@@ -18,7 +18,7 @@ const typographyVariants = cva(
         body1: "text-base",
         body2: "text-sm",
         caption: "text-xs",
-        "special-title": "text-7xl leading-10 tracking-normal font-bold",
+        "special-title": "text-7xl leading-tighter tracking-tighter font-bold",
       },
       color: {
         primary: "text-primary",
