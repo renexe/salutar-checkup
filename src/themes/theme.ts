@@ -11,8 +11,8 @@ export const theme = {
       border: "#eff7f6",
       input: "hsl(var(--input))",
       ring: "hsl(var(--ring))",
-      background: "hsl(var(--background))",
-      foreground: "hsl(var(--foreground))",
+      background: "#edf6f9",
+      foreground: "#006d77",
       white: "#edf6f9",
       black: "#0b132b",
       primary: {
