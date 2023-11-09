@@ -10,7 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "overflow-hidden relative bg-primary text-white hover:bg-foreground after:translate-x-full after:absolute after:top-0 after:left-0 after:content-[''] after:skew-y-[30deg] after:w-full after:h-full after:bg-white after:transition-all after:duration-300 after:z-10 hover:after:-translate-x-full",
+          "overflow-hidden relative bg-foreground text-white hover:bg-primary after:translate-x-full after:absolute after:top-0 after:left-0 after:content-[''] after:skew-y-[30deg] after:w-full after:h-full after:bg-white after:transition-all after:duration-300 after:z-10 hover:after:-translate-x-full",
         destructive:
           "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:

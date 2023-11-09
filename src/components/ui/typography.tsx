@@ -36,7 +36,7 @@ const typographyVariants = cva(
     },
     defaultVariants: {
       variant: "body1",
-      color: "white",
+      color: "foreground",
     },
   }
 );
