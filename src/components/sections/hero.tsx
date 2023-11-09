@@ -2,7 +2,6 @@ import Image from "next/image"
 import { MainLoginForm } from "../forms/main-login-form"
 import { Button } from "../ui/button"
 import { Typography } from "../ui/typography"
-import VideoCard from "../video-card"
 
 const Hero = () => {
   return (
