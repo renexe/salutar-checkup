@@ -72,7 +72,7 @@ export default function SectionPrograms() {
   return (
     <section className="relative w-full mb-32 py-32">
       <Typography variant="h1" color="foreground" className="text-center mb-12">Programas personalizados</Typography>
-      <div className="container space-x-4 md:space-x-0 grid grid-cols-1 md:grid-cols-4 relative gap-6">
+      <div className="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 relative gap-6">
         {programs.map((program, index) => (
           <ProgramCard key={index} title={program.title} description={program.description} />
         ))}
