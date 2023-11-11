@@ -65,6 +65,9 @@ export const theme = {
     },
     transitionDuration: {
       '400': '400ms',
-    }
+    },
+    boxShadow: {
+      'xl': '0 5px 10px 0px rgba(0, 0, 0, 0.4)',
+    },
   },
 };
