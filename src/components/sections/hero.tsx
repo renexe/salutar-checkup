@@ -12,8 +12,8 @@ const Hero = () => {
             <Typography variant="h4" color="foreground">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolor reprehenderit ea consequatur.
             </Typography>
-            <div className="w-full flex justify-center mt-2">
-              <Button size="lg" className="w-full">Saiba mais</Button>
+            <div className="mt-2">
+              <Button size="lg" >Saiba mais</Button>
             </div>
           </article>
           <div className="flex justify-center w-full h-full">

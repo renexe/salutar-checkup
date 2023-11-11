@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 
 export default function SectionFeatures() {
   return (
-    <section className="relative w-full min-h-screen pt-8">
+    <section className="relative w-full mb-32">
       <div className="container space-x-4 md:space-x-0 grid grid-cols-1 md:grid-cols-2 relative">
 
         <Image
