@@ -2,6 +2,7 @@ import SectionFeatures from '@/components/sections/features'
 import Hero from '@/components/sections/hero'
 import SectionMarkers from '@/components/sections/icon-markers'
 import SectionPrograms from '@/components/sections/programs'
+import SectionTwoColumns from '@/components/sections/two-columns'
 import Image from 'next/image'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <SectionFeatures />
       <SectionMarkers />
       <SectionPrograms />
+      <SectionTwoColumns />
     </main>
   )
 }
