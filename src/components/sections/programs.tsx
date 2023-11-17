@@ -12,7 +12,7 @@ type CardProps = React.ComponentProps<typeof Card> & {
   description: string
 }
 
-export function ProgramCard({ ...props }: CardProps) {
+function ProgramCard({ ...props }: CardProps) {
   const { title, description } = props
   return (
     <Card className="border border-foreground bg-white cursor-pointer hover:shadow-xl" {...props}>

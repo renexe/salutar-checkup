@@ -2,7 +2,7 @@ import Image from "next/image"
 import { Button } from "../ui/button"
 import { Typography } from "../ui/typography"
 
-const Hero = () => {
+export default function Hero() {
   return (
     <div className="relative min-h-screen pt-8">
       <div className="container space-x-4 md:space-x-0 min-h-[calc(100vh-4rem)] flex items-center relative z-20">
@@ -32,5 +32,3 @@ const Hero = () => {
 }
 
 Hero.displayName = 'Hero'
-
-export default Hero
