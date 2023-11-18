@@ -12,7 +12,7 @@ const typographyVariants = cva(
         h1: "text-4xl leading-10 tracking-normal font-bold",
         h2: "text-3xl leading-10 tracking-normal font-bold",
         h3: "text-2xl leading-8 tracking-normal font-semibold",
-        h4: "text-xl leading-8 font-semibold",
+        h4: "text-xl leading-6 font-semibold",
         h5: "text-lg",
         h6: "text-base",
         body1: "text-base font-normal leading-6 tracking-normal",
