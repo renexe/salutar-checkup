@@ -61,6 +61,8 @@ Typography.displayName = "Typography";
 
 export { Typography, typographyVariants };
 
+//@TODO: Investigate why this approach generates a hydration error when using the variant prop with an mapped value
+//See the programs section for an example
 function determineComp(variant: string | undefined | null) {
   const variantMap: { [key: string]: string } = {
     h1: "h1",
