@@ -34,7 +34,7 @@ export default function SectionFaqs() {
       <div className="container px-4 md:px-40 lg:px-60">
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq, index) => (
-            <AccordionItem value={`item-${index}`} className="border rounded-lg border-foreground px-4 border-b-0 last-of-type:border-b">
+            <AccordionItem key={index} value={`item-${index}`} className="border rounded-lg border-foreground px-4 border-b-0 last-of-type:border-b">
               <AccordionTrigger>
                 <Typography variant="h4" color="foreground">{faq.question}</Typography>
               </AccordionTrigger>
