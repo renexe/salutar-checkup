@@ -30,7 +30,7 @@ function ArticleCard({ ...props }: CardProps) {
       </CardHeader>
       <CardContent>
         <CardTitle className="text-foreground my-3 min-h-[50px]">
-          <Typography variant="h4" color="foreground">
+          <Typography color="foreground" className="text-xl leading-6 font-semibold">
             {title}
           </Typography>
         </CardTitle>

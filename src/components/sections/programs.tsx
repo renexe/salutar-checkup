@@ -18,7 +18,7 @@ function ProgramCard({ ...props }: CardProps) {
     <Card className="border border-foreground bg-white cursor-pointer hover:shadow-xl" {...props}>
       <CardHeader>
         <CardTitle className="text-foreground">
-          <Typography variant="h4" color="foreground">
+          <Typography color="foreground" className="text-xl leading-6 font-semibold">
             {title}
           </Typography>
         </CardTitle>
