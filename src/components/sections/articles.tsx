@@ -70,7 +70,7 @@ export default function SectionArticles() {
   ]
 
   return (
-    <section className="relative w-full mb-32">
+    <section className="relative w-full">
       <Typography variant="h1" color="foreground" className="text-center mb-12">Mais informações</Typography>
       <div className="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 relative gap-6">
         {articles.map((article, index) => (

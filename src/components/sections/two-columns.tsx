@@ -5,7 +5,7 @@ export default function SectionTwoColumns() {
 
   return (
     <section className="relative w-full mb-32">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <div className="grid grid-cols-2 gap-8">
           <div className="col-span-2 md:col-span-1">
             <Typography variant="h2" color="foreground" className="mb-8">
