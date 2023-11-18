@@ -1,4 +1,5 @@
 import SectionArticles from '@/components/sections/articles'
+import SectionFaqs from '@/components/sections/faqs'
 import SectionFeatures from '@/components/sections/features'
 import Hero from '@/components/sections/hero'
 import SectionMarkers from '@/components/sections/icon-markers'
@@ -15,6 +16,7 @@ export default function Home() {
       <SectionPrograms />
       <SectionTwoColumns />
       <SectionArticles />
+      <SectionFaqs />
     </main>
   )
 }
