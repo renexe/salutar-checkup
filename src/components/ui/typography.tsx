@@ -17,6 +17,7 @@ const typographyVariants = cva(
         h6: "text-base",
         body1: "text-base font-normal leading-6 tracking-normal",
         body2: "text-sm",
+        link: "text-base font-normal leading-6 tracking-normal overflow-hidden relative before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-1 before:transition-all before:duration-300 before:z-10 hover:before:translate-x-0 before:-translate-x-[calc(101%)] before:bg-white px-1",
         caption: "text-xs",
         "special-title": "text-7xl leading-tighter tracking-tighter font-bold drop-shadow-md",
       },
@@ -73,6 +74,7 @@ function determineComp(variant: string | undefined | null) {
     h6: "h6",
     body1: "p",
     body2: "span",
+    link: "p",
     caption: "p",
     "special-title": "h1",
   };
